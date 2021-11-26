@@ -6823,6 +6823,29 @@ img.mfp-img {
   transition: 0.5s;
 }
 
+img:hover + .gallery-text{
+  font-size: 16px;
+  opacity: 1;
+  color: white;
+  position: relative;
+  top: -30px;
+  left: 10px;
+  width: 430px;
+  transition: 0.2s;
+}
+
+.gallery .gallery-text{
+  font-size: 16px;
+  opacity: 0;
+  color: white;
+  position: relative;
+  top: -30px;
+  left: 10px;
+  width: 430px;
+  transition: 0.2s;
+}
+
+
 .gallery {
   margin: 0 0.65rem;
   overflow: hidden;
